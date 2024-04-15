@@ -1,13 +1,15 @@
 import { useState } from 'react'
+// Components
+import Authenticate from './Components/Authenticate'
+import SignUpForm from './Components/SignUpForm'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div>
-
-      </div>
+   <Authenticate />
+   <SignUpForm />
     </>
   )
 }
